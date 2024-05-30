@@ -8,7 +8,7 @@
 </head>
 <body>
 
-   
+    <!-- https://jsfiddle.net/ufhar56d/32/ -->
 
     <div class="flex min-h-[100vh] flex-no-wrap">
 
@@ -37,7 +37,7 @@
         </div>
 
         <!-- main content -->
-        <div class="w-full">
+        <div class="flex flex-col w-full">
             <!-- navbar -->
             <header class="flex items-center bg-white px-4 h-16">
                 <!-- Sidebar button -->
@@ -55,6 +55,28 @@
                     </button>
                 </div>
             </header>
+
+
+            <!-- content -->
+
+            <main class="p-4 md:p-6">
+                <div class="flex flex-wrap gap-5">
+                    <!-- card 1 -->
+                    <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg min-w-[40%]">
+                        <h3 class="text-xl font-semibold mb-4">Revenue</h3>
+                        <p class="text-gray-600 text-3xl">$12,000</p>
+                    </div>
+                    <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg min-w-[40%]">
+                        <h3 class="text-xl font-semibold mb-4">Users</h3>
+                        <p class="text-gray-600 text-3xl">5000</p>
+                    </div>
+                    <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg min-w-[40%]">
+                        <h3 class="text-xl font-semibold mb-4">Sales</h3>
+                        <p class="text-gray-600 text-3xl">4512</p>
+                    </div>
+
+                </div>
+            </main>
 
 
         </div>
