@@ -37,10 +37,11 @@
         </div>
 
         <!-- main content -->
-        <div>
+        <div class="w-full">
             <!-- navbar -->
-            <header>
-                <button class="px-4 py-2 border">
+            <header class="flex items-center bg-white px-4 h-16">
+                <!-- Sidebar button -->
+                <button class="md:hidden py-2 border rounded-md text-gray-600 border-gray-300">
                     <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M4 18H10" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
                         <path d="M4 12L16 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
@@ -48,9 +49,9 @@
                     </svg>
                 </button>
 
-                <div>
-                    <button>
-
+                <div class="ml-auto flex items-center">
+                    <button class="flex items-center px-4 py-2 border rounded-md text-gray-600 border-gray-300">
+                        <span class="mr-2">Sign out</span>
                     </button>
                 </div>
             </header>
