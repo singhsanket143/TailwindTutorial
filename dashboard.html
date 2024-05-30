@@ -60,6 +60,7 @@
             <!-- content -->
 
             <main class="p-4 md:p-6">
+                <!-- card wrapper -->
                 <div class="flex flex-wrap gap-5">
                     <!-- card 1 -->
                     <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg min-w-[40%] transition-shadow duration-300 ease-in-out hover:shadow-none">
@@ -77,6 +78,53 @@
 
                 </div>
 
+
+                <div class="mt-8">
+                    <div class="flex items-center justify-between">
+                        <h2 class="text-xl font-semibold text-gray-700">Recent activities</h2>
+                        <button class="py-2 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700">View All</button>
+                    </div>
+
+
+                    <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg mt-4 overflow-x-auto">
+                        <table class="w-full">
+                            <thead>
+                                <tr class="text-left border-b">
+                                    <th class="py-2">Date</th>
+                                    <th class="py-2">Activity</th>
+                                    <th class="py-2">Status</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr class="border-b">
+                                    <td class="py-2">01/01/2024</td>
+                                    <td class="py-2">Logged In</td>
+                                    <td class="py-2 text-green-600">Completed</td>
+
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-2">01/01/2024</td>
+                                    <td class="py-2">Logged In</td>
+                                    <td class="py-2 text-green-600">Completed</td>
+
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-2">01/01/2024</td>
+                                    <td class="py-2">Logged In</td>
+                                    <td class="py-2 text-yellow-600">Pending</td>
+
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="py-2">01/01/2024</td>
+                                    <td class="py-2">Logged In</td>
+                                    <td class="py-2 text-green-600">Completed</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
 
             </main>
 
